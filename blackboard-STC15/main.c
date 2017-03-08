@@ -17,9 +17,9 @@ void tm0_isr() __interrupt (1) __using (1)
 // empty placeholder
 }
 
-void putchar (char c) {
-    serial_putc(c);
-}
+//void putchar (char c) {
+//    serial_putc(c);
+//}
 
 #define COUNT 25
 
